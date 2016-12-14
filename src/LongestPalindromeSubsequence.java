@@ -1,5 +1,14 @@
-import java.util.*;
+/**
+ *
+ * @author Patrick Mulvihill
+ * CMPT 438: Algorithms
+ * Dr. Tian
+ * Project 6
+ * pmulvihill01@manhattan.edu
+ * https://github.com/PatMulvihill/LongestPalindromeSubsequence
+ */
 
+import java.util.*;
 public class LongestPalindromeSubsequence {
 
     public static void main(String[] args) {
