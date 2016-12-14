@@ -63,7 +63,7 @@ public class LongestPalindromeSubsequence {
                 firstHalfIndex++;
             }
         }
-        // string buffer to output the longest palindrome subsequence
+        // our string from the last section is in the reverse order so we must reverse it and convert it to a string for output
         StringBuilder builder = new StringBuilder(longestPalindromeBuffer);
         String tempString = builder.reverse().toString();
         if (firstHalfIndex == secondHalfIndex) {
